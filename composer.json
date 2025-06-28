@@ -1,0 +1,61 @@
+{
+  "name": "smartystudio/change-admin-colors",
+  "description": "Change WordPress admin-bar colours based on environment (local, development, staging, production).",
+  "type": "wordpress-plugin",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+
+  "authors": [
+    {
+      "name": "Martin Nestorov",
+      "email": "office@smartystudio.net",
+      "homepage": "https://github.com/mnestorov",
+      "role": "Developer"
+    }
+  ],
+
+  "require": {
+    "php": ">=7.4",
+    "composer/installers": "^2.2"
+  },
+
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^3.0",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "phpcompatibility/phpcompatibility-wp": "^2.1"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "SmartyStudio\\ChangeAdminColors\\": "src/"
+    },
+    "files": [
+      "sm-change-admin-colors.php"
+    ]
+  },
+
+  "config": {
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "7.4"
+    }
+  },
+
+  "scripts": {
+    "lint": [
+      "phpcs"
+    ],
+    "format": [
+      "phpcbf"
+    ]
+  },
+
+  "support": {
+    "issues": "https://github.com/mnestorov/smarty-change-admin-colors/issues",
+    "source": "https://github.com/mnestorov/smarty-change-admin-colors"
+  },
+
+  "extra": {
+    "installer-name": "sm-change-admin-colors"
+  }
+}
