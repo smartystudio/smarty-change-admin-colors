@@ -1,5 +1,5 @@
 {
-  "name": "smartystudio/change-admin-colors",
+  "name": "mnestorov/smarty-change-admin-colors",
   "description": "Change WordPress admin-bar colours based on environment (local, development, staging, production).",
   "type": "wordpress-plugin",
   "version": "1.0.0",
