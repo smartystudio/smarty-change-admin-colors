@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Lock files
+pnpm-lock.yaml
+composer.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.env
+.env.local
+.env.*.local
+*.cache
