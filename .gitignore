@@ -3,7 +3,7 @@ node_modules/
 vendor/
 
 # Lock files
-pnpm-lock.yaml
+# pnpm-lock.yaml should be committed for reproducible builds in CI
 composer.lock
 
 # Logs
