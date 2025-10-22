@@ -1,0 +1,30 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## 1.0.0 (2025-10-22)
+
+* Add doc blocks to all functions ([ef33c4f](https://github.com/mnestorov/smarty-change-admin-colors/commit/ef33c4f))
+* Added composer.json file ([ba6925b](https://github.com/mnestorov/smarty-change-admin-colors/commit/ba6925b))
+* Initial commit ([50e6b64](https://github.com/mnestorov/smarty-change-admin-colors/commit/50e6b64))
+* Initial commit ([d5d3fdc](https://github.com/mnestorov/smarty-change-admin-colors/commit/d5d3fdc))
+* Merge pull request #1 from mnestorov/mne-add-semantic-release-setup ([6111477](https://github.com/mnestorov/smarty-change-admin-colors/commit/6111477)), closes [#1](https://github.com/mnestorov/smarty-change-admin-colors/issues/1)
+* Merge pull request #2 from mnestorov/mne-add-semantic-release-setup ([281f67b](https://github.com/mnestorov/smarty-change-admin-colors/commit/281f67b)), closes [#2](https://github.com/mnestorov/smarty-change-admin-colors/issues/2)
+* Merge pull request #3 from mnestorov/mne-add-semantic-release-setup ([be8025c](https://github.com/mnestorov/smarty-change-admin-colors/commit/be8025c)), closes [#3](https://github.com/mnestorov/smarty-change-admin-colors/issues/3)
+* Plugin uri change ([40fa4de](https://github.com/mnestorov/smarty-change-admin-colors/commit/40fa4de))
+* Update composer.json ([c3bbdec](https://github.com/mnestorov/smarty-change-admin-colors/commit/c3bbdec))
+* Update README.md ([212de0d](https://github.com/mnestorov/smarty-change-admin-colors/commit/212de0d))
+* Update README.md ([76492b2](https://github.com/mnestorov/smarty-change-admin-colors/commit/76492b2))
+* Update README.md ([540c3f9](https://github.com/mnestorov/smarty-change-admin-colors/commit/540c3f9))
+* Update README.md ([b992fdc](https://github.com/mnestorov/smarty-change-admin-colors/commit/b992fdc))
+* Update README.md ([e3ab291](https://github.com/mnestorov/smarty-change-admin-colors/commit/e3ab291))
+* Update README.md ([dbbfd68](https://github.com/mnestorov/smarty-change-admin-colors/commit/dbbfd68))
+* Update README.md ([e1273a2](https://github.com/mnestorov/smarty-change-admin-colors/commit/e1273a2))
+* Update smarty-change-admin-colors.php ([a123c48](https://github.com/mnestorov/smarty-change-admin-colors/commit/a123c48))
+* Update smarty-change-admin-colors.php ([85b5220](https://github.com/mnestorov/smarty-change-admin-colors/commit/85b5220))
+* Update smarty-change-admin-colors.php ([5e77e60](https://github.com/mnestorov/smarty-change-admin-colors/commit/5e77e60))
+* Update smarty-change-admin-colors.php ([c05a0ea](https://github.com/mnestorov/smarty-change-admin-colors/commit/c05a0ea))
+* Update smarty-change-admin-colors.php ([80155af](https://github.com/mnestorov/smarty-change-admin-colors/commit/80155af))
+* fix: include pnpm-lock.yaml for reproducible CI builds ([9758ce2](https://github.com/mnestorov/smarty-change-admin-colors/commit/9758ce2))
+* fix: remove pnpm audit signatures from CI workflow ([9bb5667](https://github.com/mnestorov/smarty-change-admin-colors/commit/9bb5667))
+* feat: add semantic-release automation with pnpm ([0980f62](https://github.com/mnestorov/smarty-change-admin-colors/commit/0980f62))
