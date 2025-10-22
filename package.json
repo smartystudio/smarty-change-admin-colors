@@ -1,0 +1,59 @@
+{
+  "name": "smarty-change-admin-colors",
+  "version": "1.0.0",
+  "description": "Change WordPress admin-bar colours based on environment (local, development, staging, production).",
+  "main": "smarty-change-admin-colors.php",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mnestorov/smarty-change-admin-colors.git"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "admin",
+    "colors",
+    "environment"
+  ],
+  "author": "Martin Nestorov <office@smartystudio.net> (https://github.com/mnestorov)",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mnestorov/smarty-change-admin-colors/issues"
+  },
+  "homepage": "https://github.com/mnestorov/smarty-change-admin-colors#readme",
+  "packageManager": "pnpm@9.15.3",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.7.0",
+    "@commitlint/config-conventional": "^19.7.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.2",
+    "@semantic-release/npm": "^12.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.1",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^24.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
